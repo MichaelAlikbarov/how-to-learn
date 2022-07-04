@@ -22,7 +22,7 @@
 
 .header__subtitle {
   position: absolute;
-  top: auto;
+  margin: 0;
   max-width: 388px;
   left: 64px;
   right: auto;
@@ -41,7 +41,7 @@
 
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .header__link {
@@ -101,9 +101,6 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief_header {
   margin: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -121,16 +118,17 @@
   font-weight: normal;
 }
 
-.two-columns__paragraf:first-child {
+.two-columns__paragraph:first-child {
   margin: 0;
   padding-bottom: 30px;
 }
 
-.two-columns__paragraf:nth-child(2) {
+.two-columns__paragraph:nth-child(2) {
+  margin: 0;
   padding-bottom: 30px;
 }
 
-.two-columns__paragraf:last-child {
+.two-columns__paragraph:last-child {
   margin: 0;
   padding-bottom: 0;
 }
@@ -138,16 +136,10 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 /* секция digital*/
-.table__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .digits {
   margin-top: 100px;
   margin-left: auto;
@@ -164,7 +156,7 @@
 
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 .section-subtitle {
@@ -185,10 +177,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
+  list-style: none;
 }
 
 .table__cell {
@@ -200,7 +193,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .table__text {
   margin: 0;
@@ -227,7 +220,7 @@
 
   line-height: 1.15;
   font-size: 120px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -262,14 +255,8 @@
 }
 
 /*блок kaufman*/
-.table__list_theme_dark {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -290,17 +277,17 @@
   z-index: -1;
 }
 
-.table__title_theme_dark {
+.section-title_theme_dark {
   width: 60%;
   margin-top: 90px;
   color:#f2f2f2;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 600px;
+  font-weight: 600;
   padding-bottom: 0;
 }
 
-.table__subtitle_theme_dark {
+.section-subtitle_theme_dark {
   min-width: 60%;
   margin-top: 20px;
   line-height: 34px;
@@ -309,7 +296,7 @@
   color:#f2f2f2;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   margin: 0 auto 90px auto;
   padding: 0;
   color:#f2f2f2;
@@ -325,7 +312,7 @@
 .table__heding_theme_dark {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 600px;
+  font-weight: 600;
   color:#f2f2f2;
 }
 
@@ -339,7 +326,7 @@
 
 /* Ура! Добрались до подвала */
 .footer {
-  background-color:  #000000;
+  background-color:  #1f1f1f;
   min-height: 350px;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -362,7 +349,7 @@
   flex-direction: column;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 228px;
   height: 32px;
 
@@ -401,7 +388,7 @@
   margin: 0;
   line-height: 30px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: left;
   padding-bottom: 20px;
 }
