@@ -182,6 +182,7 @@
   margin-right: auto;
   margin-bottom: 100px;
   list-style: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -378,12 +379,6 @@
   flex-direction: row;
 }
 
-.footer__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -415,4 +410,10 @@
 
 .footer__column-link:hover {
   text-decoration: underline;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
