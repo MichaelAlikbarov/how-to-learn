@@ -1,8 +1,7 @@
 .links {
-  text-decoration: none;
+  transition: 2s;
 }
 .links:hover {
   text-decoration: underline;
   opacity: 0.3;
-  transition: 2s;
 }

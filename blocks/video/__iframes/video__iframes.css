@@ -3,5 +3,5 @@
   flex-direction: row;
   column-gap: 20px;
   justify-content: center;
-  margin-top: 50px;
+  transform: translateY(50px);
 }
